@@ -347,3 +347,27 @@ template {
 [hidden] {
   display: none;
 }
+html {
+  background-color: white;
+}
+body {
+  background-color: #2D728F;
+  font-family: "Source Sans Pro", sans-serif, serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+}
+
+h1 {
+  font-family: 'Satisfy', cursive;
+  font-size: 32px;
+  text-align: center;
+}
+h2 {
+    background-color: #3C1642; color: white; 
+    font-family: 'Satisfy', cursive, sans-serif; 
+    line-height: 200%; 
+    margin-top: 60px;
+  text-align: center;
+} 
