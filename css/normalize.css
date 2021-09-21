@@ -1,8 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Source+Sans+Pro:wght@400;700&display=swap');
-html {
-  background-color: white;
-}
-
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -375,6 +371,14 @@ h2 {
     line-height: 200%; 
     margin-top: 60px;
   text-align: center;
+}
+#content{
+  background-color: #83D6EC;
+  max-width: 960px;
+  margin: 0 auto;
+}
+nav a {
+    color: #3C1642; 
 } 
 footer {
     display: grid;
