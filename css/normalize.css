@@ -381,8 +381,6 @@ nav a {
     color: #3C1642; 
 } 
 footer {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
     background-color: #2f312f;
     padding: 1em;
     align-items: center;
