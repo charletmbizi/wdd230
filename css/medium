@@ -1,9 +1,9 @@
 @media only screen and (min-width: 32.5em){
 h1 {
-  font-size: 12em;
+  font-size: 48px;
 }
 h2 {
-font-size: 10em;
+font-size: 32px;
 }
 header, footer {
 border-radius: 10px;
