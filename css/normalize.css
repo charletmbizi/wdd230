@@ -384,3 +384,9 @@ footer {
     padding: 1em;
     align-items: center;
 }
+header img {
+   width: 200px;
+   height: auto;
+   float: right;
+   border-radius: 0 10px 0 0;
+}
