@@ -362,13 +362,13 @@ body {
 
 h1 {
   font-family: 'Satisfy', cursive;
-  font-size: 8em;
+  font-size: 32px;
   text-align: center;
 }
 h2 {
     background-color: #3C1642; color: white; 
     font-family: 'Satisfy', cursive, sans-serif; 
-    font-size:6em;
+    font-size:24px;
     text-align: center;
 }
 #content{
