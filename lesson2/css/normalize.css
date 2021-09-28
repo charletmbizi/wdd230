@@ -390,7 +390,7 @@ header img {
    float: right;
 }
 main {
-   background-color: white;
+    background-color: #D3D3D3;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 20px;
