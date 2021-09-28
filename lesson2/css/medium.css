@@ -1,18 +1,37 @@
+@media-only screen and (min-width 30em) {
 main {
-    background-color: #D3D3D3;
+   background-color: #D3D3D3;
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(9, 1fr);
     grid-gap: 20px;
 }
 .visual-hierarchy {
-       grid-column: 1 / 5;
+       background-color: white;
+       grid-column: 1 / 4;
        margin-left: 2em;  
 }
 .rule-of-thirds {
-       grid-column: 5 / 9;
-   align-self: center;    
+       background-color: white;
+       grid-column: 4 / 7;
+       align-self: center;    
 }
 .white-space-and-clean-design {
-         grid-column: 9 / 13;
-  margin-right: 2em;
+         background-color: white;
+         grid-column: 7 / 10;
+         margin-right: 2em;
+}
+h1 {
+  font-family: 'Satisfy', cursive;
+  font-size: 48px;
+  text-align: center;
+}
+h2 {
+    background-color: #3C1642; color: white; 
+    font-family: 'Satisfy', cursive, sans-serif; 
+    font-size:32px;
+    text-align: center;
+}
+body {
+  font-size: 20px;
+}
 }
