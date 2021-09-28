@@ -1,5 +1,5 @@
 main {
-   background-color: #2D728F;
+   background-color: #CDCDCD;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 20px;
