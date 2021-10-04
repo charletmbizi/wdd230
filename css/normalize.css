@@ -380,7 +380,7 @@ nav a {
     color: #3C1642; 
 } 
 footer {
-    background-color: #2f312f;
+    background-color: #CBC3E3;
     padding: 1em;
     align-items: center;
 }
@@ -392,8 +392,6 @@ header img {
 main {
    background-color: white;
 }
-#footer p{
-
+#footer p {
 color: white;
-
 }
