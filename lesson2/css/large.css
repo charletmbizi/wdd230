@@ -7,17 +7,14 @@ main {
 }
 .visual-hierarchy {
        background-color: white;
-       grid-column: 1 / 5;
        margin-left: 2em;  
 }
 .rule-of-thirds {
        background-color: white;
-       grid-column: 5 / 9;
        align-self: center;    
 }
 .white-space-and-clean-design {
          background-color: white;
-         grid-column: 9 / 13;
          margin-right: 2em;
 }
 h1 {
