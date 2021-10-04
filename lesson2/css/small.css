@@ -392,7 +392,7 @@ header img {
 main {
    background-color: #D3D3D3;
     display: grid;
-    grid-template-columns: repeat(9, 1fr);
+    grid-template-columns: 1fr;
     grid-gap: 20px;
 }
 .visual-hierarchy {
