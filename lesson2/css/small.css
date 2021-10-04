@@ -397,16 +397,13 @@ main {
 }
 .visual-hierarchy {
        background-color: white;
-       grid-column: 1 / 4;
        margin-left: 2em;  
 }
 .rule-of-thirds {
        background-color: white;
-       grid-column: 4 / 7;
        align-self: center;    
 }
 .white-space-and-clean-design {
          background-color: white;
-         grid-column: 7 / 10;
          margin-right: 2em;
 }
