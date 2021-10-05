@@ -4,12 +4,12 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #CBC3E3;
+  background-color: #3C1642;
 }
 
 li {
   float: left;
-  color: black;
+  color: #CBC3E3;
 }
 
 li a {
