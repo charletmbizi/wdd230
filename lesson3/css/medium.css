@@ -8,7 +8,6 @@ ul {
 
 li {
   float: left;
-  color: white;
 }
 
 li a {
@@ -16,6 +15,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  color: white;
 }
 
 li a:hover:not(.active) {
