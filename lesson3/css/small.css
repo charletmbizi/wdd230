@@ -55,3 +55,7 @@ li a {
   display: block;
   width: 60px;
 }
+img {
+    max-width:450px;
+    max-height:450px;
+}
