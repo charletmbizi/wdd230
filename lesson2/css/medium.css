@@ -31,4 +31,7 @@ h2 {
 body {
   font-size: 20px;
 }
+.active {
+  background-color: #04AA6D;
+}
 }
