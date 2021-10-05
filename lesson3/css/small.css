@@ -46,4 +46,8 @@ header img {
 main {
    background-color: #D3D3D3;
 }
-
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
