@@ -31,9 +31,12 @@ nav a {
     color: #3C1642; 
 } 
 footer {
-    background-color: #CBC3E3;;
+    background-color: #CBC3E3;
     padding: 1em;
     align-items: center;
+}
+header {
+  background-color: #CBC3E3; 
 }
 header img {
    width: 200px;
