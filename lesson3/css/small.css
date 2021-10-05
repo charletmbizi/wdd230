@@ -42,22 +42,5 @@ header img {
 }
 main {
    background-color: #D3D3D3;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 20px;
 }
-.visual-hierarchy {
-       background-color: white;
-       margin-left: 2em;  
-}
-.rule-of-thirds {
-       background-color: white;
-       align-self: center;    
-}
-.white-space-and-clean-design {
-         background-color: white;
-         margin-right: 2em;
-}
-main img {
-max-width: 100%;
-}
+
