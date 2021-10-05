@@ -35,7 +35,7 @@ footer {
     padding: 1em;
     align-items: center;
 }
-header {
+.logo-box {
   background-color: #CBC3E3; 
 }
 header img {
