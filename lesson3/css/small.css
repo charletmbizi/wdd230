@@ -26,6 +26,7 @@ h2 {
   background-color: white;
   max-width: 960px;
   margin: 0 auto;
+  padding: 1em;
 }
 nav a {
     color: #3C1642; 
@@ -45,6 +46,7 @@ header img {
 }
 main {
    background-color: #D3D3D3;
+  padding: 1em;
 }
 ul {
   list-style-type: none;
