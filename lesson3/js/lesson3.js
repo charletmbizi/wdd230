@@ -1,4 +1,3 @@
 document.getElementById("lastmodified").innerHTML = document.lastModified;
-function date() {
-  document.getElementById("year").innerHTML = year;
-}
+document.getElementById("year").innerHTML = year;
+
