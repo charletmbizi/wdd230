@@ -1,1 +1,63 @@
+html {
+  background-color: white;
+}
+body {
+  background-color: #2D728F;
+  font-family: "Source Sans Pro", sans-serif, serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+}
 
+h1 {
+  background-color: white; color: #3C1642;
+  font-family: 'Satisfy', cursive;
+  font-size: 32px;
+  text-align: center;
+}
+h2 {
+    background-color: #3C1642; color: white; 
+    font-family: 'Satisfy', cursive, sans-serif; 
+    font-size:24px;
+    text-align: center;
+}
+#content{
+  background-color: white;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1em;
+}
+nav a {
+    color: #3C1642; 
+} 
+footer {
+    background-color: #CBC3E3;
+    padding: 1em;
+    align-items: center;
+}
+.logo-box {
+  background-color: #CBC3E3; 
+}
+header img {
+   width: 200px;
+   height: auto;
+   float: right;
+}
+main {
+   background-color: #D3D3D3;
+  padding: 1em;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li a {
+  display: block;
+  width: 60px;
+}
+img {
+    max-width:450px;
+    max-height:450px;
+}
