@@ -25,6 +25,12 @@ h2 {
 nav a {
     color: #3C1642; 
 } 
+
+/* Hide the link that should open and close the topnav on small screens */
+li .icon {
+  display: none;
+}
+
 footer {
     background-color: #CBC3E3;
     padding: 1em;
