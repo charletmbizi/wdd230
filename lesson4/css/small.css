@@ -36,6 +36,9 @@ footer {
     padding: 1em;
     align-items: center;
 }
+.motto {
+ text-align: center; 
+}
 .header-box {
     background-color: #CBC3E3;
     padding: 1em;
