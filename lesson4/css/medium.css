@@ -1,11 +1,11 @@
 @media only screen and (min-width: 40em) {
-ul {
+  ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
-
+  
 li {
   float: left;
 }
@@ -15,6 +15,10 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
 }
 a {
     color: #3C1642;
@@ -23,9 +27,17 @@ li a:hover:not(.active) {
   background-color: #111;
 }
 
-.active {
-  background-color: #04AA6D;
+li a:hover {
+  background-color: #ddd;
+  color: black;
 }
+
+/* Add an active class to highlight the current page */
+  li a.active {
+  background-color: #04AA6D;
+  color: #3C1642;
+}
+  
 h1 {
   font-family: 'Satisfy', cursive;
   font-size: 48px;
