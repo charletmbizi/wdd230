@@ -36,6 +36,11 @@ footer {
     padding: 1em;
     align-items: center;
 }
+footer {
+    background-color: #CBC3E3;
+    padding: 1em;
+}
+
 nav {
   background-color: #CBC3E3; 
 }
