@@ -36,7 +36,20 @@ a {
   background-color: #04AA6D;
   color: #3C1642;
 }
-  
+
+#topnav {
+        text-align: justify;
+        min-width: 500px;
+  }
+#topnav:after {
+        content: '';
+        display: inline-block;
+        width: 100%;
+    }
+#topnav li {
+        display: inline-block;
+    }
+
 h1 {
   font-family: 'Satisfy', cursive;
   font-size: 48px;
