@@ -37,18 +37,13 @@ a {
   color: #3C1642;
 }
 
-#topnav {
-        text-align: justify;
-        min-width: 500px;
-  }
-#topnav:after {
-        content: '';
-        display: inline-block;
-        width: 100%;
-    }
-#topnav li {
-        display: inline-block;
-    }
+ul {
+  display: flex;
+  justify-content:space-between;
+  list-style-type: none;
+  padding-left: 0;
+  text-align: center;
+}
 
 h1 {
   font-family: 'Satisfy', cursive;
