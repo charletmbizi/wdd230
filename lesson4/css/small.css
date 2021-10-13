@@ -24,6 +24,7 @@ h2 {
 }
 .topnav a {
     color: #3C1642; 
+  text-align: center;
 } 
 
 /* Hide the link that should open and close the topnav on small screens */
