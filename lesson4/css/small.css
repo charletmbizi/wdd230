@@ -22,12 +22,12 @@ h2 {
     font-size:24px;
     text-align: center;
 }
-nav a {
+.topnav a {
     color: #3C1642; 
 } 
 
 /* Hide the link that should open and close the topnav on small screens */
-li .icon {
+.topnav .icon {
   display: none;
 }
 
@@ -65,7 +65,7 @@ ul {
   margin: 0;
   padding: 0;
 }
-li a {
+.topnav a {
   display: block;
   width: 60px;
 }
