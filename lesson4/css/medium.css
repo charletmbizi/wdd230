@@ -1,1 +1,43 @@
+@media only screen and (min-width: 40em) {
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
 
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+a {
+    color: #3C1642;
+}
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+h1 {
+  font-family: 'Satisfy', cursive;
+  font-size: 48px;
+  text-align: center;
+}
+h2 {
+    background-color: #3C1642; color: white; 
+    font-family: 'Satisfy', cursive, sans-serif; 
+    font-size:32px;
+    text-align: center;
+}
+body {
+  font-size: 20px;
+}
+}
