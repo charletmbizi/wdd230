@@ -1,1 +1,11 @@
-
+@media only screen and (min-width: 40em) {
+h1 {
+  font-size: 72px;
+}
+h2 {
+    font-size:48px;
+}
+body {
+  font-size: 28px;
+}
+}
