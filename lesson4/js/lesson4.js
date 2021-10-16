@@ -20,3 +20,8 @@ function toggleMenu() {
 
 hamburger.addEventListener("click", toggleMenu);
 const menuItems = document.querySelectorAll(".menuItem");
+menuItems.forEach( 
+  function(menuItem) { 
+    menuItem.addEventListener("click", toggleMenu);
+  }
+)
