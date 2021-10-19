@@ -6,3 +6,4 @@ document.getElementById("year").innerHTML = new Date().getFullYear();
   hamburger.classList.toggle("change")  
   navsub.classList.toggle("nav-change")  
  });
+
