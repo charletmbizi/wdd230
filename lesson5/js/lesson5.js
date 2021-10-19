@@ -9,12 +9,8 @@ document.getElementById("year").innerHTML = new Date().getFullYear();
 
 var day = new Date().getDay(); // getDay returns 0 to 6; 0 = sun, 1 = mon and so on.
  if (day == 5) {    
- h1.hidden {
-  display: block;
-}
+ document.getElementById("hidden").style.display = "block";
     } 
 else if ((day <= 4) && (day >=6) {
- h1.hidden {
-  display: none;
-}
+document.getElementById("hidden").style.display = "none";       
 }
