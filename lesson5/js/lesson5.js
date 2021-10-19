@@ -13,7 +13,7 @@ var day = new Date().getDay(); // getDay returns 0 to 6; 0 = sun, 1 = mon and so
   display: block;
 }
     } 
-else {
+else if ((day <= 4) && (day >=6) {
  h1.hidden {
   display: none;
 }
