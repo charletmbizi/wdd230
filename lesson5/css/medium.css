@@ -6,6 +6,12 @@
   overflow: hidden;
 }
   
+header img {
+   width: 100px;
+   height: auto;
+   float: right;
+}
+  
 li {
   float: left;
 }
