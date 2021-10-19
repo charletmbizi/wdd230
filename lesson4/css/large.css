@@ -5,6 +5,11 @@ h1 {
 h2 {
     font-size:48px;
 }
+header img {
+   width: 200px;
+   height: auto;
+   float: right;
+}
 body {
   font-size: 28px;
 }
