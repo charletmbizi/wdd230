@@ -7,3 +7,13 @@ document.getElementById("year").innerHTML = new Date().getFullYear();
   navsub.classList.toggle("nav-change")  
  });
 
+  if day = 5 {    
+ h1.hidden {
+  display: block;
+}
+    } 
+else {
+ h1.hidden {
+  display: none;
+}
+}
