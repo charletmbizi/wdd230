@@ -8,7 +8,7 @@ document.getElementById("year").innerHTML = new Date().getFullYear();
  });
 
 var day = new Date().getDay(); // getDay returns 0 to 6; 0 = sun, 1 = mon and so on.
- if day == 5 {    
+ if (day == 5) {    
  h1.hidden {
   display: block;
 }
