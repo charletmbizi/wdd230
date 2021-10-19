@@ -7,7 +7,8 @@ document.getElementById("year").innerHTML = new Date().getFullYear();
   navsub.classList.toggle("nav-change")  
  });
 
-  if day == 5 {    
+var day = date.getDay(); // getDay returns 0 to 6; 0 = sun, 1 = mon and so on.
+ if day == 5 {    
  h1.hidden {
   display: block;
 }
