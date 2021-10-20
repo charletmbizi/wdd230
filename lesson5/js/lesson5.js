@@ -1,5 +1,3 @@
-document.getElementById("current-date").innerHTML = new Date().toDateString();
-document.getElementById("year").innerHTML = new Date().getFullYear();
  const hamburger = document.querySelector(".ham");  
  const navsub = document.querySelector(".nav-sub");  
  hamburger.addEventListener('click', () => {  
@@ -14,3 +12,5 @@ var day = new Date().getDay(); // getDay returns 0 to 6; 0 = sun, 1 = mon and so
 else {
 document.getElementById("hidden").style.display = "block";       
 }
+document.getElementById("current-date").innerHTML = new Date().toDateString();
+document.getElementById("year").innerHTML = new Date().getFullYear();
