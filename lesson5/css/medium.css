@@ -11,6 +11,10 @@ header img {
    height: auto;
    float: right;
 }
+img {
+    max-width:800px;
+    max-height:auto;
+}
   
 li {
   float: left;
