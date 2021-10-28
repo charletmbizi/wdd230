@@ -57,6 +57,12 @@ ul {
   margin: 0;
   padding: 0;
 }
+.weather-summary {
+    background-color: rgba(240, 240, 240, 0.8);
+    margin: 1em 3em;
+    padding: 1em;
+    text-align: center;
+}
 img {
     max-width:450px;
     max-height:450px;
