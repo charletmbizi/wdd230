@@ -62,14 +62,6 @@ ul {
   margin: 0;
   padding: 0;
 }
-.weather-summary {
-  background-color: rgba(240, 240, 240, 0.8);
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 }
 img {
     max-width:100%;
