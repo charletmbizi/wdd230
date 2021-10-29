@@ -9,7 +9,12 @@ body {
   margin: 0;
   color: #444;
 }
-
+.hero-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 h1 {
   background-color: white; color: #3C1642;
   font-family: 'Satisfy', cursive;
@@ -58,13 +63,13 @@ ul {
   padding: 0;
 }
 .weather-summary {
-    background-color: rgba(240, 240, 240, 0.8);
-    margin: 1em 3em;
-    padding: 1em;
-    text-align: center;
-    position: absolute;
-    bottom: 50%;
-    left: 50%; 
+  background-color: rgba(240, 240, 240, 0.8);
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 }
 img {
     max-width:100%;
