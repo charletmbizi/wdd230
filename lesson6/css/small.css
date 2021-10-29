@@ -65,7 +65,7 @@ ul {
     position: absolute;
     bottom: 8px;
     left: 50%;
-    transform: translateX(-50%); 
+    transform: translateY(-50%); 
 }
 img {
     max-width:100%;
