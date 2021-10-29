@@ -1,0 +1,16 @@
+@media only screen and (min-width: 55em) {
+h1 {
+  font-size: 72px;
+}
+  header img {
+   width: 200px;
+   height: auto;
+   float: right;
+}
+h2 {
+    font-size:48px;
+}
+body {
+  font-size: 28px;
+}
+}
