@@ -5,14 +5,16 @@ const menuX = document.querySelector(".menuX");
 const menuItems = document.querySelectorAll(".menuLink");
 
 menuItems.forEach(menuItem => {
-  menuItem.addEventListener("click", toggleHamburger)
+  menuItem.addEventListener("click", toggleHamburger);
 })
 
-ham.addEventListener("click", toggleHamburger)
-menuX.addEventListener("click", toggleHamburger)
-overlay.addEventListener("click", toggleHamburger)
-
 function toggleHamburger() {
-  overlay.classList.toggle("showOverlay")
-  sideNav.classList.toggle("showNav")
+  overlay.classList.toggle("showOverlay");
+  sideNav.classList.toggle("showNav");
 }
+
+ham.addEventListener("click", toggleHamburger);
+menuX.addEventListener("click", toggleHamburger);
+overlay.addEventListener("click", toggleHamburger);
+
+
