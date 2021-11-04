@@ -1,3 +1,10 @@
+document.addEventListener("DOMContentLoaded", function() {
+// Use the windchill function
+let speed = 25;
+let temp = 10;
+buildWC(speed, temp);
+});
+
 fuction buildWC(speed, temp) {
   let windchill = document.getElementByID('windchill');
   
