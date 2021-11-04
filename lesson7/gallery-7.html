@@ -1,1 +1,94 @@
-
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>W07 Assignment: The Gallery Page</title>
+    <meta name="description" content="This is the planning document for Ex Africa Energy website">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script src="js/hamburger.js"></script>
+    <script src="js/lesson4.js"></script>
+  </head>
+  <body>
+    <div id="hidden">
+    <h1>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</h1>
+    </div>
+    <div class="header-box">
+    <header>
+      <img src="images/logo.jpg" alt="Ex Africa Logo">
+      <h1>Ex Africa Energy</h1>
+      <div class="motto">
+      <p>Powering Africa to SocioEconomic Prosperity through Renewable Energy</p>
+      </div>
+    </header>
+    </div> 
+  <div class="ham" >  
+  <span class="bar1"></span>  
+  <span class="bar2"></span>  
+  <span class="bar3"></span>
+  <span class="bar4"></span>
+  <span class="bar5"></span>
+  </div>  
+  <ul class="nav-sub">
+                <li><a href="preston-7.html">Home</a></li>
+                <li><a class="menulink" href="weather-summary.html">Weather Summary</a></li>
+                <li><a class="menulink" href="5-day-forecast.html">5 Day Forecast</a></li>
+                <li><a class="menulink" href="article.html">Article</a></li>
+                <li><a href="gallery-7.html">Gallery</a></li>
+                <li><a class="menulink" href="contact-information.html">The Contact Information</a></li>
+           </ul>
+   </nav>
+    <main>
+    <div class="hero-image">
+    <picture>
+    <img srcset="images/wdd230_image_franklinOriginalmedium.jpeg" @media only screen and (min-width: 40em) and (max-width: 54em)>
+    <img srcset="images/wdd230_image_franklinOriginal.jpeg" @media only screen and (min-width: 55em)>
+    <img  src="images/wdd230_image_franklinOriginalsmall.jpeg" alt="Hero Image">
+    <div class = "weather-summary">
+    <h1>Weather Summary</h1>
+     <section>
+            <div>
+                <label>Currently:</label>
+                <span id="currently"></span>
+            </div>
+            <div>
+                <label>High:</label>
+                <span id="high"></span>
+            </div>
+             <div>
+                <label>Wind Chill:</label>
+                <span id="wind-chill"></span>
+            </div>
+             <div>
+                <label>Humidity:</label>
+                <span id="humidity"></span>
+            </div>
+             <div>
+                <label>Wind Speed:</label>
+                <span id="wind-speed"></span>
+            </div>
+     </section>
+    </div>
+    </div>
+    </picture>
+    <div class="article">
+    <h2>Why Solar?</h2>
+    <img src="images/article.jpg" alt="Image for homepage article"> 
+    <p>Most of the modern-human needs are powered by electricity. Think of all the activities you did today. What portion of those 
+        activities interacted with electricity? Probably a majority of them. Now think of those who are not connected to electricity 
+        because their houses are not yet connected to grid electricity. How are they surviving? Ex Africa Energy provides the 
+        unconnected households with electricity to power their essential needs on a budget. In addition, the company supplies them with small 
+        solar gadgets that bring convenience to their lives.</p>
+    </main>
+    <footer>
+       <p> &copy; <span id="year"></span> - Charlet Maruza | Harare<a href="https://byupathway.org">BYU I Online Learning</a></p>
+      <script src="js/lesson5.js"></script>
+       <p>The current date is:</p>
+      <p id="current-date">Current Date: </p>
+   </footer>
+ </body>
+      <script src="js/lesson5.js"></script>
+</html>
