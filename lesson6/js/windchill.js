@@ -21,6 +21,5 @@ fuction buildWC(speed, temp) {
   //Display the wiindchill
   console.log(wc);
   
-  //Feels like '+wc+' F
   feelTemp.innerHTML = WC;
 }
