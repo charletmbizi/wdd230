@@ -6,7 +6,7 @@ let windchill = document.getElementByID('windchill');
 feelTemp.innerHTML = buildWC(speed, temp);
 });
 
-fuction buildWC(speed, temp) {
+function buildWC(speed, temp) {
   // let windchill = document.getElementByID('windchill');
   
   // Compute windchill
