@@ -40,10 +40,12 @@
    </nav>
     <main>
     <div class="hero-image">
-    <picture>
-    <img srcset="images/wdd230_image_franklinOriginalmedium.jpeg" @media only screen and (min-width: 40em) and (max-width: 54em)>
-    <img srcset="images/wdd230_image_franklinOriginal.jpeg" @media only screen and (min-width: 55em)>
-    <img  src="images/wdd230_image_franklinOriginalsmall.jpeg" alt="Hero Image">
+<picture>
+    <source media="(max-width: 40em)" srcset="images/wdd230_image_franklinOriginalsmall.jpg">
+    <source media="(min-width: 40em)" srcset="images/wdd230_image_franklinOriginalmedium.jpg">
+    <source media="(min-width: 55em)" srcset="images/wdd230_image_franklinOriginal.jpeg">
+    <img  src="images/wdd230_image_franklinOriginal.jpeg" alt="Hero Image">
+</picture>
     <div class = "weather-summary">
     <h1>Weather Summary</h1>
      <section>
@@ -71,7 +73,6 @@
      </section>
     </div>
     </div>
-    </picture>
     <div class="article">
     <h2>Why Solar?</h2>
     <img src="images/article.jpg" alt="Image for homepage article"> 
