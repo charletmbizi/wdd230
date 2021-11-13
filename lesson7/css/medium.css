@@ -14,9 +14,9 @@ header img {
 main img {
     width:100%;
 }
-main {
+main .container-gallery{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
  main section.card-1 {
