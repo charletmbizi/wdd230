@@ -14,7 +14,15 @@ header img {
 main img {
     width:100%;
 }
-  
+main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+ main section.card-1 {
+        margin: 20px;
+    }
+ 
 li {
   float: left;
 }
