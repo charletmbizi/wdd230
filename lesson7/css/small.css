@@ -33,6 +33,19 @@ footer {
     padding: 1em;
     align-items: center;
 }
+.card-1 {
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 1.5rem 0;
+    overflow: hidden;
+}
+main div.caption {
+    margin: 0.9rem;
+    font-style: italic;
+    color:#555;
+}
+
+
 .motto {
  text-align: center; 
 }
