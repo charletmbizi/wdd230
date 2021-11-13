@@ -46,9 +46,11 @@
     <main>
     <div class="hero-image">
     <picture>
-    <img srcset="images/wdd230_image_franklinOriginalmedium.jpeg" @media only screen and (min-width: 40em) and (max-width: 54em)>
-    <img srcset="images/wdd230_image_franklinOriginal.jpeg" @media only screen and (min-width: 55em)>
-    <img  src="images/wdd230_image_franklinOriginalsmall.jpeg" alt="Hero Image">
+    <source media="(max-width: 40em)" srcset="images/wdd230_image_franklinOriginalsmall.jpg">
+    <source media="(min-width: 40em)" srcset="images/wdd230_image_franklinOriginalmedium.jpg">
+    <source media="(min-width: 55em)" srcset="images/wdd230_image_franklinOriginal.jpeg">
+    <img  src="images/wdd230_image_franklinOriginal.jpeg" alt="Hero Image">
+    </picture>
     <div class = "weather-summary">
     <h1>Weather Summary</h1>
      <section>
@@ -75,15 +77,81 @@
      </section>
     </div>
     </div>
-    </picture>
-    <div class="article">
-    <h2>Why Solar?</h2>
-    <img src="images/article.jpg" alt="Image for homepage article"> 
-    <p>Most of the modern-human needs are powered by electricity. Think of all the activities you did today. What portion of those 
-        activities interacted with electricity? Probably a majority of them. Now think of those who are not connected to electricity 
-        because their houses are not yet connected to grid electricity. How are they surviving? Ex Africa Energy provides the 
-        unconnected households with electricity to power their essential needs on a budget. In addition, the company supplies them with small 
-        solar gadgets that bring convenience to their lives.</p>
+        <h2>Weather Gallery</h2>
+        <div class="container-gallery">
+            <section class="card-1">
+                <picture>
+                    <img src="./images/placeholder.jpg" data-src="./images/1_lightning.jpg" alt="lightning in the sky at night">
+                </picture>
+                <div class="caption"> Thunderstorm in the countryside at night </div>
+            </section>
+            <section class="card-1">
+                <picture>
+                    <img src="./images/placeholder.jpg" data-src="./images/2_snow.jpg" alt="Preson with an umbrell during a snowy day">
+                </picture>
+                <div class="caption"> A day of snow in the city </div>
+            </section>
+            <section class="card-1">
+                <picture>
+                    <img src="./images/placeholder.jpg" data-src="./images/3_fog.jpg" alt="a foggy road">
+                </picture>
+                <div class="caption"> Foggy road in the country </div>
+            </section>
+            <section class="card-1">
+                <picture>
+                    <img src="./images/placeholder.jpg" data-src="./images/4_cloudy.jpg" alt="heavy clouds in the farmland">
+                </picture>
+                <div class="caption"> Dark, heavy clouds in the farmland </div>
+            </section>
+            <section class="card-1">
+                <picture>
+                    <img src="./images/placeholder.jpg" data-src="./images/5_misty_forest.jpg" alt="mosty road in the forest">
+                </picture>
+                <div class="caption"> A misty morning in the forest </div>
+            </section>
+            <section class="card-1">
+                <picture>
+                    <img src="./images/placeholder.jpg" data-src="./images/6_rain_forest.jpg" alt="A road in the forest during a rainy day">
+                </picture>
+                <div class="caption"> Rainy day in the forest </div>
+            </section>
+            <section class="card-1">
+                <picture>
+                    <img src="./images/placeholder.jpg" data-src="./images/7_lightning_2.jpg" alt="lightning sky at dusk">
+                </picture>
+                <div class="caption"> Thunderstorm in the countryside at dusk </div>
+            </section>
+            <section class="card-1">
+                <picture>
+                    <img src="./images/placeholder.jpg" data-src="./images/8_tornado.jpg" alt="Image from a satellite of a tornado">
+                </picture>
+                <div class="caption"> Tornado formation from a satellite </div>
+            </section>
+            <section class="card-1">
+                <picture>
+                    <img src="./images/placeholder.jpg" data-src="./images/9_sunny.jpg" alt="Sunny landscape">
+                </picture>
+                <div class="caption"> Sunny day at the lake </div>
+            </section>
+            <section class="card-1">
+                <picture>
+                    <img src="./images/placeholder.jpg" data-src="./images/10_misty_mountains.jpg" alt="Misty mountains">
+                </picture>
+                <div class="caption"> Misty mountains </div>
+            </section>
+            <section class="card-1">
+                <picture>
+                    <img src="./images/placeholder.jpg" data-src="./images/11_clouds.jpg" alt="Menacing clouds with a young person looking at them">
+                </picture>
+                <div class="caption"> Rainstorm approaching in the countryside </div>
+            </section>
+            <section class="card-1">
+                <picture>
+                    <img src="./images/placeholder.jpg" data-src="./images/12_rain_city.jpg" alt="Man walking in the rain on a sidewalk">
+                </picture>
+                <div class="caption"> Rainy day in the city </div>
+            </section>
+        </div>
     </main>
     <footer>
        <p> &copy; <span id="year"></span> - Charlet Maruza | Harare<a href="https://byupathway.org">BYU I Online Learning</a></p>
