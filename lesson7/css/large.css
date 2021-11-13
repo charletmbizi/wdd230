@@ -15,6 +15,10 @@ h1 {
    height: auto;
    float: right;
 }
+  main .container-gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 h2 {
     font-size:48px;
 }
