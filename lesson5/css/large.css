@@ -13,4 +13,18 @@ h2 {
 body {
   font-size: 28px;
 }
+     header, nav {
+        margin: 0 auto;
+        max-width: 100vw;
+    }
+
+    main, footer {
+        margin: 0 auto;
+        max-width: 70vw;
+    }
+
+    .navigation {
+        display: flex;
+        max-width: 70vw;
+    }
 }
