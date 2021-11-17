@@ -21,4 +21,13 @@ h2 {
 body {
   font-size: 28px;
 }
+    main, footer {
+        margin: 0 auto;
+        max-width: 70vw;
+    }
+
+    .navigation {
+        display: flex;
+        max-width: 70vw;
+    }
 }
