@@ -1,10 +1,20 @@
 @media only screen and (min-width: 40em) {
-  ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
+      .navigation li {
+        display: block;
+        border-right: 1px solid rgba(0, 0, 0, 0.3);
+
+    }
+
+    .navigation {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 85vw;
+        margin: auto;
+    }
+
+    .navigation:first-child {
+        border-left: 1px solid rgba(0, 0, 0, 0.3);
+    }
   
 header img {
    width: 100px;
