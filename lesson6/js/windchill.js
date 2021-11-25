@@ -21,6 +21,8 @@ function buildWC(speed, temp) {
   
   //Display the wiindchill
   console.log(wc);
+  console.log(speed);
+  console.log(temp);
   
   // feelTemp.innerHTML = wc;
   
