@@ -142,3 +142,6 @@ local-events h3{font-weight:400}
 .contact-information{display:grid;text-align:left;grid-template-columns:1fr;
   width:100%;box-shadow:0 2px 5px 2px #2C2F2D;background-color:#518260;
   padding-top:15px;padding-bottom:15px;}
+.ci-text{width:fit-content;padding-left:15px;}.ci-p{margin-top:5px;}#ci-p1{margin-top:10px;}
+.map-container{padding:15px;height:100%;width:100%;text-align:left;}
+#map{width:80%;height:80%;box-shadow:0 1px 2px #2C2F2D;min-width:3px;min-height:1px;max-width:300px;max-height:200px}#map:hover{box-shadow:0 2px 5px #333}
