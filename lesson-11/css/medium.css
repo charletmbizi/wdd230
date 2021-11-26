@@ -1,0 +1,42 @@
+@media only screen and (min-width: 40em) {
+ 
+    .navigation li {
+        display: block;
+        border-right: 1px solid rgba(0, 0, 0, 0.3);
+
+    }
+
+    .navigation {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 85vw;
+        margin: auto;
+    }
+
+    .navigation:first-child {
+        border-left: 1px solid rgba(0, 0, 0, 0.3);
+    } 
+header img {
+   width: 100px;
+   height: auto;
+   float: right;
+}
+main img {
+    width:100%;
+}
+  
+h1 {
+  font-family: 'Satisfy', cursive;
+  font-size: 48px;
+  text-align: center;
+}
+h2 {
+    background-color: #3C1642; color: white; 
+    font-family: 'Satisfy', cursive, sans-serif; 
+    font-size:32px;
+    text-align: center;
+}
+body {
+  font-size: 20px;
+}
+}
