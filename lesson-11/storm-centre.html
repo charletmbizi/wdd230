@@ -26,9 +26,80 @@
   <nav>
   <ul class="navigation">
                 <li><a href="preston.html" class="menulink">Home</a></li>
-                <li><a class="menulink" href="storm-centre.html">Storm Centre</a></li>
-                <li><a class="active" href="gallery.html">Gallery</a></li>
+                <li><a class="active" href="storm-centre.html">Storm Centre</a></li>
+                <li><a class="menulink" href="gallery.html">Gallery</a></li>
                 <li><a class="menulink" href="article.html">Article</a></li>
                 <li><a class="menulink" href="contact-information.html">Contacts</a></li>
            </ul>
-   </nav>    
+   </nav>
+<main>
+<h1>Storm Center</h1>
+<h2>Submit a Storm</h2>
+<div id="storm-center">
+<form method="get" action="thanks.html">
+<fieldset>
+<legend>Personal Information</legend>
+<label for="user-name">Full Name *<input id="user-name" type="text" name="name" pattern="[A-Za-z].{5,}" placeholder="Required" required></label>
+<label for="user-email">Email<input id="user-email" type="email" name="email" placeholder="Johndoe@email.com"></label>
+<label for="phone-number">Phone Number *<input id="phone-number" type="tel" name="phone" placeholder="Required" required></label>
+<label for="zip-code">Zip Code *<input id="zip-code" type="number" name="zip" placeholder="Required" required></label>
+</fieldset>
+<fieldset>
+<legend>Storm Details</legend>
+<label for="storm-date">Storm Date
+<input id="storm-date" type="date" name="date">
+</label>
+<label for="storm-type">Storm Type
+<input id="storm-type" list="storm-types">
+</label>
+<datalist id="storm-types">
+<option value="Flash Flood"></option>
+<option value="Hail"></option>
+<option value="Hurricane"></option>
+<option value="Thunderstorms"></option>
+<option value="Tornado"></option>
+</datalist>
+<label for="storm-severity">Severity 
+<span class="severity-div"><input id="storm-severity" type="range" value="1" min="1" max="10" step="1" oninput="changeRating(this.value)" onchange="changeRating(this.value)">
+<span id="severity">1</span></span>
+</label>
+<datalist>
+<option value="0">
+<option value="1">
+<option value="2">
+<option value="3">
+<option value="4">
+<option value="5">
+<option value="6">
+<option value="7">
+<option value="8">
+<option value="9">
+<option value="10">
+</datalist>
+<div id="in-danger-div">
+User In-Danger
+<label for="yes"><input id="yes" name="in-danger" type="radio" value="yes">Yes</label>
+<label for="maybe"><input id="maybe" name="in-danger" type="radio" value="maybe">Maybe</label>
+<label for="no"><input id="no" name="in-danger" type="radio" value="no">No</label>
+</div>
+</fieldset>
+<fieldset class="other-information">
+<legend>Additional Information or Comments</legend>
+<label for="other-info">Other Information<textarea id="other-info" placeholder="If you have any more questions or comments, please enter them here..."></textarea></label>
+</fieldset>
+<input id="submit-storm" type="submit" value="Submit">
+</form>
+</div>
+</main>
+<footer class="footer"> 
+            <p>&copy; <span id="year"></span> | Charlet Mbizi | Harare<br> 
+                <a href="https://openweathermap.org/">Data From OpenWeather</a><br>
+                <span id="currentDate"></span> | 
+                <span id="lastVisit"></span>
+            </p>
+        </footer>
+  <script src="js/preston-weatherapi.js"></script>
+  <script src="js/lesson11.js"></script>
+  <script src="js/lazyload.js"></script>
+ </body>
+</html>
