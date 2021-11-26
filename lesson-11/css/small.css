@@ -33,6 +33,11 @@ footer {
     padding: 1em;
     align-items: center;
 }
+.order {
+    background-color: #CBC3E3;
+    padding: 1em;
+    align-items: center;
+}
 .motto {
  text-align: center; 
 }
