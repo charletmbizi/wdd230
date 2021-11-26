@@ -139,3 +139,6 @@ nav a:hover{
 .local-events div{padding-left:15px;padding-right:15px;padding-bottom:15px}.
 local-events h3{font-weight:400}
 .local-events:hover{box-shadow:1px 2px 5px 1px #2C2F2D}
+.contact-information{display:grid;text-align:left;grid-template-columns:1fr;
+  width:100%;box-shadow:0 2px 5px 2px #2C2F2D;background-color:#518260;
+  padding-top:15px;padding-bottom:15px;}
