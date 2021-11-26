@@ -1,0 +1,103 @@
+html {
+  background-color: white;
+}
+body {
+  background-color: #2D728F;
+  font-family: "Source Sans Pro", sans-serif, serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+}
+.hero-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+h1 {
+  background-color: white; color: #3C1642;
+  font-family: 'Satisfy', cursive;
+  font-size: 32px;
+  text-align: center;
+}
+h2 {
+    background-color: #3C1642; color: white; 
+    font-family: 'Satisfy', cursive, sans-serif; 
+    font-size:24px;
+    text-align: center;
+}
+
+footer {
+    background-color: #CBC3E3;
+    padding: 1em;
+    align-items: center;
+}
+.motto {
+ text-align: center; 
+}
+.header-box {
+    background-color: #CBC3E3;
+    padding: 1em;
+}
+
+nav {
+  background-color: #CBC3E3; 
+}
+header img {
+   width: 50px;
+   height: auto;
+   float: right;
+}
+main {
+   background-color: #D3D3D3;
+  padding: 1em;
+  margin: 0 auto;
+  padding: 1em;
+
+  
+}
+}
+img {
+    max-width:100%;
+}
+/* Nav */
+
+nav {
+    background-color: #CBC3E3;
+    color: #3C1642;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav ul li {
+    flex: 1 1 100%;
+}
+
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 0.75rem;
+    font-size: 1rem;
+    color: #000;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+nav a:hover{
+    background-color: #3C1642;
+}
+
+.navigation li {
+    display: none;
+}
+
+.active {
+    background-color: #2a9d8f;
+    color: #000;
+}
