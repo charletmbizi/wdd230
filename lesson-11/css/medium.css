@@ -26,7 +26,14 @@ header img {
 main img {
     width:100%;
 }
-  
+main .container-gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+ main section.card-1 {
+        margin: 20px;
+    }
 h1 {
   font-family: 'Satisfy', cursive;
   font-size: 48px;
