@@ -46,4 +46,10 @@ body {
         display: flex;
         max-width: 70vw;
     }
+  .local-events{font-size:14px;width:fit-content;
+    position:absolute;background-color:#05569d;
+    box-shadow:0 1px 4px 1px #fff;opacity:85%;right:0;left:580px;
+    top:260px}
+  .local-events h2{margin:0 auto}
+  .local-events h3{color:#fff}
 }
