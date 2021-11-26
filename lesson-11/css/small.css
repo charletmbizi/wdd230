@@ -120,3 +120,9 @@ nav a:hover{
   padding-bottom:15px}
 .day span{font-weight:700;
   font-size:1em}
+.local-events{
+  border-radius:10px;margin:0 auto;text-align:left;background-color:lightgray;
+  box-shadow:0 1px 4px 1px #2C2F2D;max-width:500px;width:100%}
+.local-events div{padding-left:15px;padding-right:15px;padding-bottom:15px}.
+local-events h3{font-weight:400}
+.local-events:hover{box-shadow:1px 2px 5px 1px #2C2F2D}
