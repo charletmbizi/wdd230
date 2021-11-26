@@ -101,3 +101,8 @@ nav a:hover{
     background-color: #2a9d8f;
     color: #000;
 }
+.text-box-small{
+  border-radius:8px;
+  overflow:hidden;
+  margin-bottom:15px
+}
