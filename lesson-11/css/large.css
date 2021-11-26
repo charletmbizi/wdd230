@@ -18,9 +18,25 @@ h1 {
 h2 {
     font-size:48px;
 }
+  
 body {
   font-size: 28px;
 }
+.hero-text{
+  margin:0 auto;
+  position:absolute;
+  font-size:14.5px;
+  top:256px;
+  left:0;
+  right:700px;
+  width:fit-content;
+  height:fit-content;
+  background-color:#05569d;
+  opacity:85%;
+  box-shadow:1px 2px 4px 1px #fff}
+  .hero-text h3{color:#fff}
+  .hero-text:hover,
+  .hero-text h2{margin:0}#for-smalls{display:none}
     main, footer {
         margin: 0 auto;
         max-width: 70vw;
