@@ -53,9 +53,18 @@ main {
    background-color: #D3D3D3;
   padding: 1em;
   margin: 0 auto;
+  padding: 1em; 
+}
+.five-day-forecast {
+   background-color: #D3D3D3;
   padding: 1em;
-
-  
+  margin: 0 auto;
+}
+.article {
+   background-color: #D3D3D3;
+  padding: 1em;
+  margin: 0 auto;
+  padding: 1em;
 }
 }
 img {
