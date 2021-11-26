@@ -56,15 +56,14 @@ main {
   padding: 1em; 
 }
 .five-day-forecast {
-   background-color: #D3D3D3;
-  padding: 1em;
-  margin: 0 auto;
+    background-color: #CBC3E3;
+    padding: 1em;
+    align-items: center;
 }
 .article {
-   background-color: #D3D3D3;
-  padding: 1em;
-  margin: 0 auto;
-  padding: 1em;
+    background-color: #CBC3E3;
+    padding: 1em;
+    align-items: center;
 }
 }
 img {
