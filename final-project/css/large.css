@@ -78,4 +78,40 @@ body {
    width: 75%;
    margin-left: 55px;
 }
+  #wrapper
+{
+ width:995px;
+}
+#price_columns
+{
+ margin-left:45px;
+}
+.columns 
+{
+ width: 300px;
+}
+.columns .price_name 
+{
+ font-size: 35px;
+}
+.columns .price
+{
+ font-size: 25px;
+}
+.columns li 
+{
+ height:70px;
+}
+
+.columns .grey 
+{
+ font-size: 20px;
+}
+
+.columns .select_price 
+{
+ width:120px;
+ height:45px;
+ font-size: 17px;
+}
 }
