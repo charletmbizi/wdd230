@@ -2,7 +2,12 @@
 h1 {
   font-size: 72px;
 }
-    main .container-gallery{
+    
+      main .seminars-gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+  main .container-gallery{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
