@@ -37,6 +37,10 @@ footer {
     padding: 1em;
     align-items: center;
 }
+      main .pictures{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 .order {
     background-color: #CBC3E3;
     padding: 1em;
