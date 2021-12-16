@@ -21,6 +21,10 @@ h1 {
   font-size: 32px;
   text-align: center;
 }
+#header-left {
+        float: left;
+        display: inline-block;
+    }
 h2 {
     background-color: #3C1642; color: white; 
     font-family: 'Satisfy', cursive, sans-serif; 
