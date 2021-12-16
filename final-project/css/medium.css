@@ -12,6 +12,10 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
+     section.card-1:hover {
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+        transition: box-shadow 250ms;
+    }
     .navigation {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
