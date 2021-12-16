@@ -10,6 +10,15 @@ h1 {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+  .social {
+    grid-column: 1/2;
+} 
+  .announcements {
+   grid-column: 2/3; 
+  }
+  .map-container {
+   grid-column: 3/4;  
+  }
       main .contact-information{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
