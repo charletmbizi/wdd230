@@ -1,0 +1,36 @@
+#wrapper
+{
+ width:660px;
+}
+#price_columns
+{
+ margin-left:30px;
+}
+.columns 
+{
+ width: 200px;
+}
+.columns .price_name 
+{
+ font-size: 24px;
+}
+.columns .price
+{
+ font-size: 16px;
+}
+.columns li 
+{
+ height:45px;
+ line-height:50px;
+}
+.columns .grey 
+{
+ font-size: 13px;
+}
+
+.columns .select_price 
+{
+ width:56px;
+ height:30px;
+ font-size: 12px;
+}
