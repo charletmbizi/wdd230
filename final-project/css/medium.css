@@ -8,6 +8,10 @@
  .local-events{font-size:16px}
  .hero-text h2{margin-bottom:8px}
 
+    main .seminars-gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
     .navigation {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
