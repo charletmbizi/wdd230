@@ -30,10 +30,6 @@ main img {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
-      main .pictures{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
   .social {
     grid-column: 1/2;
 } 
@@ -43,7 +39,10 @@ main img {
   .map-container {
    grid-column: 3/4;  
   }
-
+      main .pictures{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
  main section.card-1 {
         margin: 20px;
     }
