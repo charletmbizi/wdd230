@@ -31,12 +31,12 @@ body {
 }
 #second_col
 {
- border-left:2px solid #086A87;
- border-right:2px solid #086A87;
+ border-left:2px solid #53DD6C;
+ border-right:2px solid #53DD6C;
 }
 .columns .price_name 
 {
- background-color: #2E9AFE;
+ background-color: #3C1642;
  color: white;
  font-size: 12px;
  border:none;
@@ -44,8 +44,8 @@ body {
 }
 .columns .price
 {
- background-color: #2E9AFE;
- color: #0B2F3A;
+ background-color: #3C1642;
+ color: #53DD6C;
  font-size: 8px;
  border: none;
 }
@@ -66,7 +66,7 @@ body {
 
 .columns .select_price 
 {
- background-color: #0489B1;
+ background-color: #3C1642;
  border:none;
  border-bottom: 2px solid #0B4C5F;
  color: white;
